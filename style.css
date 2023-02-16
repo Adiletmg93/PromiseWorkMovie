@@ -1,0 +1,66 @@
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #492c3d,
+    #5d3f59,
+    #6e5478,
+    #7b6b98,
+    #8384ba,
+    #778fc7,
+    #689bd2,
+    #56a6da,
+    #31a3cb,
+    #069fb8,
+    #009aa2,
+    #1b938b
+  );
+}
+.main-cont {
+  background-image: url(https://24.kg/files/media/15/15412.jpg);
+  margin: 80px;
+  padding: 10px;
+  border: 2px solid rgb(60, 60, 60);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 5px rgb(252, 244, 92);
+
+  -webkit-box-shadow: 2px 0px 26px 13px rgba(249, 180, 62, 0.72);
+  -moz-box-shadow: 2px 0px 26px 13px rgba(249, 180, 62, 0.72);
+  box-shadow: 2px 0px 26px 13px rgba(249, 180, 62, 0.72);
+}
+.container {
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* border: 2px solid red; */
+}
+.newDiv {
+  margin: 15px 15px 15px 15px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(93, 89, 89);
+  box-shadow: 5px 5px 5px 5px rgb(1, 45, 56);
+  width: 300px;
+  height: 500px;
+  border-radius: 10px;
+}
+.newDiv:hover {
+  background-color: #65a0c7;
+  box-shadow: 5px 5px 5px 5px rgb(242, 250, 186);
+}
+h3 {
+  font-weight: bold;
+}
+a {
+  text-decoration: none;
+  color: rgb(254, 226, 192);
+}
+p {
+  font-style: italic;
+  color: beige;
+}
+img {
+  width: 300px;
+  height: 400px;
+}
